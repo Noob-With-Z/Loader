@@ -1,0 +1,27 @@
+warn("Thanks For Use!")
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Noob-With-Z/Orion/main/source')))()
+OrionLib:MakeNotification({
+	Name = "Warning",
+	Content = "Script Loading...",
+	Image = "nerd",
+	Time = 5
+})
+local listPre = {
+	--Murder Mystery 2
+	[] = "loadstring(game:HttpGet(''))()",
+}
+
+if listPre[game.GameId] ~= nil then
+	loadstring(listPre[tonumber(game.GameId)])()
+else
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Noob-With-Z/Scripts/main/IY%20Modded'))()",
+end
+
+local StarterGui = game:GetService("StarterGui")
+
+StarterGui:SetCore("idk", {
+Title = "da",
+Desc = "ds",
+Button1 = "a",
+Button2 = "b",
+})
