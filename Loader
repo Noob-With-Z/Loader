@@ -14,14 +14,5 @@ local listPre = {
 if listPre[game.GameId] ~= nil then
 	loadstring(listPre[tonumber(game.GameId)])()
 else
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/Noob-With-Z/Scripts/main/IY%20Modded'))()",
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Noob-With-Z/Scripts/main/IYModded'))()",
 end
-
-local StarterGui = game:GetService("StarterGui")
-
-StarterGui:SetCore("idk", {
-Title = "da",
-Desc = "ds",
-Button1 = "a",
-Button2 = "b",
-})
