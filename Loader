@@ -1,4 +1,4 @@
-Print("Thanks For Use")
+print("Thanks For Use")
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Noob-With-Z/Orion/main/source')))()
 OrionLib:MakeNotification({
 	Name = "Warning",
@@ -10,7 +10,6 @@ local listPre = {
 	--Murder Mystery 2
 	[66654135] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Noob-With-Z/Scripts/main/mm2'))()",
 }
-
 if listPre[game.GameId] ~= nil then
 	loadstring(listPre[tonumber(game.GameId)])()
 else
