@@ -1,17 +1,21 @@
 print("Thanks For Use")
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Noob-With-Z/Orion/main/source')))()
 OrionLib:MakeNotification({
-	Name = "Warning",
-	Content = "Script Loading...",
-	Image = "nerd",
-	Time = 5
+    Name = "Warning",
+    Content = "Script Loading...",
+    Image = "nerd",
+    Time = 5
 })
+
 local listPre = {
-	--Murder Mystery 2
-	[66654135] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Noob-With-Z/Scripts/main/mm2'))()",
+    -- Murder Mystery 2
+    [66654135] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Noob-With-Z/Scripts/main/mm2'))()",
 }
+
 if listPre[game.GameId] ~= nil then
-	loadstring(listPre[tonumber(game.GameId)])()
+    loadstring(listPre[tonumber(game.GameId)])()
 else
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/Noob-With-Z/Scripts/main/univ'))()",
+    -- Carregar script universal se nenhum script específico for encontrado
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Noob-With-Z/Scripts/main/univ'))()
 end
