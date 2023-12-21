@@ -8,7 +8,7 @@ OrionLib:MakeNotification({
 })
 local listPre = {
 	--Murder Mystery 2
-	[43242342332432] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Noob-With-Z/Scripts/main/mm2'))()",
+	[66654135] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Noob-With-Z/Scripts/main/mm2'))()",
 }
 
 if listPre[game.GameId] ~= nil then
