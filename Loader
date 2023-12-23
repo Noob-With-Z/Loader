@@ -1,13 +1,4 @@
-print("Thanks For Use")
-
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Noob-With-Z/Orion/main/source')))()
-OrionLib:MakeNotification({
-    Name = "Warning",
-    Content = "Script Loading...",
-    Image = "rbxassetid://15596611355",
-    Time = 5
-})
-
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local listPre = {
     -- Murder Mystery 2
     [66654135] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Noob-With-Z/Scripts/main/mm2'))()",
