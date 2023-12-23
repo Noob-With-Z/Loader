@@ -4,7 +4,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Noo
 OrionLib:MakeNotification({
     Name = "Warning",
     Content = "Script Loading...",
-    Image = "rbxassetid://15704776412",
+    Image = "rbxassetid://15596611355",
     Time = 5
 })
 
