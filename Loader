@@ -1,12 +1,9 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local listPre = {
     -- Murder Mystery 2
     [66654135] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Noob-With-Z/Scripts/main/mm2'))()",
 }
-
 if listPre[game.GameId] ~= nil then
     loadstring(listPre[tonumber(game.GameId)])()
 else
-    -- Carregar script universal se nenhum script específico for encontrado
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Noob-With-Z/Scripts/main/univ'))()
 end
